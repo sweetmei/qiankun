@@ -1,0 +1,14 @@
+{
+    "name": "domain-project1",
+    "scripts": {
+        "start": "umi dev",
+        "build": "umi build"
+    },
+    "dependencies": {
+        "@ant-design/pro-layout": "^6.22.0",
+        "umi": "^3.5.9"
+    },
+    "devDependencies": {
+        "@umijs/plugin-qiankun": "^2.26.0"
+    }
+}
