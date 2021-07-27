@@ -11,6 +11,13 @@ export default [
             path: '/user/login',
             component: './user/Login',
           },
+          { 
+            name: 'domain-project122',
+            icon: 'smile',
+            path: '/domain-project1/domainlist',
+            microApp: 'domain-project1',
+            microName: 'domain-project1',
+          }
         ],
       },
     ],
@@ -49,11 +56,6 @@ export default [
   {
     component: './404',
   },
-  {
-    name: 'domain-project1',
-    icon: 'smile',
-    path: '/domainlist',
-    microApp: 'domain-project1',
-    microName: 'domain-project1'
-  }
+
+  
 ];

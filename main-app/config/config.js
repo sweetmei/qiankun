@@ -6,7 +6,7 @@ import proxy from './proxy';
 import routes from './routes';
 const { REACT_APP_ENV } = process.env;
 export default defineConfig({
-  hash: true,
+  // hash: true,
   antd: {},
   dva: {
     hmr: true,
@@ -66,6 +66,7 @@ export default defineConfig({
     type: 'none',
   },
   mfsu: {},
+  hash:true,
   webpack5: {},
   exportStatic: {},
   qiankun:{
@@ -73,7 +74,7 @@ export default defineConfig({
       apps:[
         {
           name: 'domain-project1',
-          entry:'//localhost:8051',
+          entry:'//localhost:8051/',
         }
       ]
     }

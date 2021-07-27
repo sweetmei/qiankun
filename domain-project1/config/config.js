@@ -3,7 +3,6 @@ import { defineConfig } from 'umi';
 import { routes } from './router';
 
 export default defineConfig({
-    hash: true,
    
     dynamicImport: {
         loading: '@/layouts/Loading',
@@ -12,7 +11,7 @@ export default defineConfig({
         slave:{}
     },
     routes,
-    base:'/domain-project1'
-    
+    base:'/domain-project1',
+    exportStatic:{}
     
 });

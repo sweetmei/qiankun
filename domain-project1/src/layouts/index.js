@@ -1,4 +1,10 @@
+import  BasicLayout from '@ant-design/pro-layout';
+import complexMenu from './contextMenu'
 export default (props) => {
-  console.log(props,'layouts')
-    return <div style={{ padding: 20 }}>21321321{ props.children }</div>;
+    return <div style={{ padding: 20 }}>
+      <BasicLayout route={{
+        routes: complexMenu,
+      }}></BasicLayout>
+      { props.children }
+      </div>;
   }
